@@ -19,7 +19,7 @@ public class AccesoTabla {
 
 			Connection conexion = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/XEPDB1", "system",
 					"1234");
-			System.out.println("-----");
+			System.out.println("");
 
 			// Preparamos la consulta
 			Statement sentencia = conexion.createStatement();
